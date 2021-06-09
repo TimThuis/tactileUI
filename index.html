@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- pixel ratio for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- meta tags for search engines -->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- social links -->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <!-- tab info browser -->
+    <!-- <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" /> -->
+    <title></title>
+
+    <!-- google font api -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+  </head>
+  <body>
+    <div class="container-ui">
+      <img class ="mask" src="./img/mask.svg" alt="">
+      <img class ="outline" src="./img/outline.svg" alt="">
+
+      <!-- booting screen -->
+      <div id="booting-page" class="page">
+          <img class="logo-icon" src="./img/iconTactile.svg" alt="">
+          <img class="logo-text" src="./img/iconTactileText.svg" alt="">
+      </div>
+
+      <!-- connecting page -->
+      <div id="connecting-page" class="text page">
+             <div class="icon">
+               <img id="scan-no-bars" src="./img/iconConnectingNoBars.svg" alt="">
+               <img id="scan-one-bars" src="./img/iconConnectingOneBar.svg" alt="">
+               <img id="scan-full-bars" src="./img/iconConnectingTopBar.svg" alt="">
+             </div>
+             <div class="medium">
+               connecting...
+             </div>
+             <div class="footer made-by extra-small text ">
+               V 1.2.1
+             </div>
+      </div>
+
+
+      <!-- scan page -->
+       <div id="scan-page" class="text page">
+            <div class="icon">
+              <img id="scan-no-bars" src="./img/iconScanNoBars.svg" class="icon-scan" alt="">
+              <img id="scan-one-bars" src="./img/iconScanOneBar.svg" class="icon-scan" alt="">
+              <img id="scan-full-bars" src="./img/iconScanTopBar.svg" class="icon-scan" alt="">
+            </div>
+            <div class="medium">
+              <img src="./img/wipe.png" alt="">
+              Scan you bracelet
+            </div>
+            <div class="footer made-by extra-small text">
+              by <span>⬢</span> Tactile
+            </div>
+      </div>
+
+      <!-- login page -->
+      <div id="login-page" class="page">
+        <div class="header notification">
+            <div class="text">
+              <div class="small">
+                Welkom
+              </div>
+              <div class="medium bold">
+                Jaqueline
+              </div>
+            </div>
+            <img src="./img/headerYellow.svg" class="" alt="">
+        </div>
+        <div class="current-balance text ">
+          <img src="./img/iconCoinsYellow.svg" class="icon-coin" alt="">
+          <div class="medium">your balance</div>
+          <div class="large bold">
+                <p>€ 5,70</p>
+          </div>
+      </div>
+    </div>
+
+    <!-- billing page -->
+    <div id="billing-page" class="page">
+        <div class="list medium">
+          <ul>
+            <li>Wine <span>1x</span></li>
+            <li>Soda <span>3x</span></li>
+            <li>Beer <span>4x</span></li>
+          </ul>
+        </div>
+        <div class="notification">
+          <div class="text">
+            <div class="small">
+              Total
+            </div>
+            <div class="large bold">
+              € 12,40
+            </div>
+          </div>
+          <img src="./img/footerBlue.svg" class="" alt="">
+        </div>
+      </div>
+
+
+      <!-- confirmation payment page -->
+      <div id="confirmation-page" class="page">
+        <div class="new-balance text">
+              <img src="./img/iconCoinsGreen.svg" class="icon-coin" alt="">
+              <div class="large bold overflow-div">
+                <p>€ 5,70</p>
+              </div>
+              <div class="medium">
+                your new balance
+              </div>
+        </div>
+
+        <div class="notification">
+          <div class="text">
+            <div class="small">
+              paid
+            </div>
+            <div class="large bold">
+              € 12,40
+            </div>
+          </div>
+          <img src="./img/footerGreen.svg" class="" alt="">
+        </div>
+      </div>
+
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
